@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&family=Rubik:ital,wght@0,300;0,500;0,600;0,800;1,300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="shortcut icon" type="img/png" href="img/favicon.png" />
+    <title>trillo &mdash; Your all-in-one booking app</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <img src="./img/logo.png" alt="" class="logo" />
+        <form action="#" class="search">
+          <input
+            type="text"
+            name="search-input"
+            id=""
+            class="search_input"
+            placeholder="Search Hotels"
+          />
+          <button class="search_btn">
+            <svg class="search_icon">
+              <use xlink:href="./img/sprite.svg#icon-magnifying-glass"></use>
+            </svg>
+          </button>
+        </form>
+        <nav class="user-nav">
+          <div class="user-nav_icon_box">
+            <svg class="user-nav_icon">
+              <use xlink:href="./img/sprite.svg#icon-bookmark"></use>
+            </svg>
+            <span class="user-nav_notification">7</span>
+          </div>
+
+          <div class="user-nav_icon_box">
+            <svg class="user-nav_icon">
+              <use xlink:href="./img/sprite.svg#icon-chat"></use>
+            </svg>
+            <span class="user-nav_notification">13</span>
+          </div>
+          <div class="user-nav_user">
+            <img
+              src="img/user-3.jpg"
+              alt="User Photo"
+              class="user-nav_user-photo"
+            />
+            <span class="user-nav_user-name">Antwan</span>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <div class="content-container">
+      <aside class="sidebar">
+        <nav>
+          <ul class="side-nav">
+            <li class="side-nav_item active">
+              <a href="" class="side-nav_link">
+                <svg class="side-nav_icon">
+                  <use xlink:href="./img/sprite.svg#icon-home"></use>
+                </svg>
+                <span>Hotel</span>
+              </a>
+            </li>
+
+            <li class="side-nav_item">
+              <a href="" class="side-nav_link">
+                <svg class="side-nav_icon">
+                  <use
+                    xlink:href="./img/sprite.svg#icon-aircraft-take-off"
+                  ></use>
+                </svg>
+                <span>Flight</span>
+              </a>
+            </li>
+
+            <li class="side-nav_item">
+              <a href="" class="side-nav_link">
+                <svg class="side-nav_icon">
+                  <use xlink:href="./img/sprite.svg#icon-key"></use>
+                </svg>
+                <span>Car Rental</span>
+              </a>
+            </li>
+
+            <li class="side-nav_item">
+              <a href="" class="side-nav_link">
+                <svg class="side-nav_icon">
+                  <use xlink:href="./img/sprite.svg#icon-map"></use>
+                </svg>
+                <span>Tours</span>
+              </a>
+            </li>
+          </ul>
+
+          <div class="legal">&copy; 2022 by Antwan. All right reserved.</div>
+        </nav>
+      </aside>
+
+      <main class="main-content">
+        <div class="gallery">
+          <figure class="galery_item">
+            <img
+              src="img/hotel-1.jpg"
+              alt="hotel photo"
+              class="gallery_photo"
+            />
+          </figure>
+          <figure class="galery_item">
+            <img
+              src="img/hotel-2.jpg"
+              alt="hotel photo"
+              class="gallery_photo"
+            />
+          </figure>
+          <figure class="galery_item">
+            <img
+              src="img/hotel-3.jpg"
+              alt="hotel photo"
+              class="gallery_photo"
+            />
+          </figure>
+        </div>
+
+        <div class="overview">
+          <h1 class="overview_heading">Alambil Hotel</h1>
+          <div class="overview_stars">
+            <svg class="overview_stars_icon-star">
+              <use xlink:href="img/sprite.svg#icon-star"></use>
+            </svg>
+
+            <svg class="overview_stars_icon-star">
+              <use xlink:href="img/sprite.svg#icon-star"></use>
+            </svg>
+            <svg class="overview_stars_icon-star">
+              <use xlink:href="img/sprite.svg#icon-star"></use>
+            </svg>
+            <svg class="overview_stars_icon-star">
+              <use xlink:href="img/sprite.svg#icon-star"></use>
+            </svg>
+            <svg class="overview_stars_icon-star">
+              <use xlink:href="img/sprite.svg#icon-star"></use>
+            </svg>
+          </div>
+
+          <div class="overview_location">
+            <svg class="overview_icon-location">
+              <use xlink:href="img/sprite.svg#icon-location-pin"></use>
+            </svg>
+            <button class="location_inline">Magbon Badagri, Lagos.</button>
+          </div>
+
+          <div class="overview_rating">
+            <div class="overview_rating-average">8.6</div>
+            <div class="overview_rating-count">429 votes</div>
+          </div>
+        </div>
+
+        <div class="detail">
+          <article class="description">
+            <p class="pararaph">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi
+              nisi dignissimos debitis ratione sapiente saepe. Accusantium
+              cumque, quas, ut corporis incidunt deserunt quae architecto
+              voluptate. Accusantium cumque, quas, ut corporis incidunt deserunt
+              quae architecto voluptate delectus, inventore iure aliquid
+              aliquam.
+            </p>
+            <p class="paragraph">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga
+              doloremque architecto dicta animi, totam, itaque officia ex.
+            </p>
+            <ul class="list">
+                <li class="list_item">Close to the beach</li>
+                <li class="list_item">Breakfast included</li>
+                <li class="list_item">Free airport shuttle</li>
+                <li class="list_item">Free wifi in all rooms</li>
+                <li class="list_item">Air conditioning</li>
+                <li class="list_item">Pets are not allow!</li>
+            </ul>
+            <div class="recommend">
+                Akindele and 5 other friends recommend this hotel.
+            </div>
+            <div class="recommend_friends">
+                <img src="img/user-3.jpg" alt="" class="recommend_photo">
+                <img src="img/user-1.jpg" alt="" class="recommend_photo">
+                <img src="img/user-2.jpg" alt="" class="recommend_photo">
+                <img src="img/user-1.jpg" alt="" class="recommend_photo">
+            </div>
+          </article>
+
+          <section class="user-reviews">User reviews</section>
+        </div>
+      </main>
+    </div>
+  </body>
+</html>
