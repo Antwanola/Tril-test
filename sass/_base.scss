@@ -38,6 +38,11 @@
   html {
     box-sizing: border-box;
     font-size: 62.5%;//1rem = 10px  10px/16px from browser default = 62.5% somehow
+
+    @media only screen and (max-width: $bp-large) {
+      font-size: 50% ;
+      
+    }
   }
 
   body {
@@ -45,4 +50,8 @@
     font-weight: 400;
     line-height: 1.6;
     color: var(--color-grey-dark-2);
+    overflow-x: hidden;
+    &::-webkit-scrollbar {
+      display: none;
+    }
   }
